@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/anil/static/css/main.ae5efd50.css",
+    "main.js": "/anil/static/js/main.f115d45f.js",
+    "static/media/me.jpg": "/anil/static/media/me.cae9b02478ee6119dae5.jpg",
+    "index.html": "/anil/index.html",
+    "main.ae5efd50.css.map": "/anil/static/css/main.ae5efd50.css.map",
+    "main.f115d45f.js.map": "/anil/static/js/main.f115d45f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae5efd50.css",
+    "static/js/main.f115d45f.js"
+  ]
+}
