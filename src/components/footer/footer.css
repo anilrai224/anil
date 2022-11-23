@@ -2,6 +2,7 @@
     background-color: aqua;
     color: #000;
     margin-top: 100px;
+    position: relative;
 }
 .footer_content{
     display: flex;
@@ -9,6 +10,16 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+}
+
+.curve svg{
+    height: auto;
+    width: 100%;
+    background-color: #000;
+    border: none;
+}
+.curve path{
+    height: 100%;
 }
 .footer_content .footer_logo h1{
     color: #000;
@@ -26,6 +37,7 @@
 .header_links ul{
     text-align: center;
     display: flex;
+    gap: 10px;
 }
 .header_links ul li{
     font-size: 19px;
