@@ -12,6 +12,7 @@
     border-radius:4px;
     cursor:pointer;
     transition: 1.3s;
+    z-index: 10;
 }
 .scrollTop:hover{
     background-color: #000;

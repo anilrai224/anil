@@ -1,5 +1,5 @@
 {
-  "homepage": "http://anilrai224.github.io/anil",  
+  "homepage": "http://anilrai224.github.io/anil",
   "name": "my-first",
   "version": "0.1.0",
   "private": true,
@@ -8,17 +8,19 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "emailjs-com": "^3.2.0",
+    "framer-motion": "^7.6.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
+    "react-reveal": "^1.2.2",
     "react-scripts": "5.0.1",
     "swiper": "^8.4.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build", 
-    "deploy":"gh-pages -d build", 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

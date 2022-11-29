@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import {BiUpArrowAlt} from "react-icons/bi"
 import './scrollTop.css'
+import Fade from 'react-reveal/Fade'
 
 function BackToTopButton() {
+    
     const [backToTopButton, setBackToTopButton] = useState(false);
 
     useEffect(()=> {
@@ -24,7 +26,7 @@ function BackToTopButton() {
 
     return <div className="App">
     {backToTopButton && (
-        <button className="scrollTop" onClick={scrollUp}><BiUpArrowAlt/></button>
+        <Fade left><button className="scrollTop" onClick={scrollUp}><BiUpArrowAlt/></button></Fade>
     )}
     </div>;
 }
