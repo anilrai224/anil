@@ -27,10 +27,10 @@ const Footer = () => {
               </ul>
             </div>
             <div className="social_links">
-              <div><RiFacebookFill  className="social_links-icon"/></div>
-              <div><BsInstagram  className="social_links-icon"/></div>
-              <div><ImLinkedin2  className="social_links-icon"/></div>
-              <div><BsTwitter  className="social_links-icon"/></div>
+              <RiFacebookFill  className="social_links-icon"/>
+              <BsInstagram  className="social_links-icon"/>
+              <ImLinkedin2  className="social_links-icon"/>
+              <BsTwitter  className="social_links-icon"/>
             </div>
             <div className="copyright">&copy; <a href="https://www.linkedin.com/in/anil-rai-4a38ba232/" target='blank'>ANIL RAI</a>. All Rights Reserved.</div>
           </div>

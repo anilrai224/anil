@@ -15,11 +15,9 @@ const Aboutme = () => {
            <img src={me} alt="Me" />
         </div>
         <div className="aboutMe-description">
-          <p>
-            <Fade right>
+        <Fade right>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quam porro minus consectetur! Reprehenderit, voluptatem praesentium! Optio reprehenderit, exercitationem nemo, non sapiente ad temporibus ducimus fugiat, libero adipisci possimus distinctio.
-            </Fade>
-          </p>
+        </Fade>
           <Fade bottom>
             <a href="#contact_container" className="lets-talk">Let's Talk</a>
           </Fade>
